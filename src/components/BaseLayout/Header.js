@@ -6,10 +6,10 @@ class Header extends Component {
     return (
       <div>
         <header>
-        <h1 className="header-title">Joseph Frasier</h1>
+        <h1 className="header-title">Peace Of Cake</h1>
           <nav>
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/portfolio">Portfolio</NavLink>
+            <NavLink to="/Menu">Menu</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/contact">Contact</NavLink>
             <NavLink to="/references">References</NavLink>

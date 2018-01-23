@@ -4,7 +4,7 @@ import "../styles/App.css";
 import About from "./About";
 import Image from "./Welcome";
 import Header from "./BaseLayout/Header";
-import Portfolio from "./Portfolio";
+import Menu from "./Menu";
 import Contact from "./Contact"
 import References from "./References"
 
@@ -20,7 +20,7 @@ class App extends Component {
             <div>
               <Route path="/" exact component={Image} />
               <Route path="/about" component={About} />
-              <Route path="/portfolio" component={Portfolio} />
+              <Route path="/Menu" component={Menu} />
               <Route path="/contact" component={Contact}></Route>
               <Route path="/references" component={References}></Route>
 

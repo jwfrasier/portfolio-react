@@ -7,7 +7,7 @@ class Welcome extends Component {
       <div className="page-div">
         <div className="button-div">
           <NavLink to="/portfolio" className="swag">
-              Check Me Out!
+              Check Our Menu!
           </NavLink>
         </div>
       </div>
